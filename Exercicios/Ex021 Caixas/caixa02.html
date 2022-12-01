@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <STYle>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+        }
+        h1{
+            box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.253);
+        }
+        header{
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            margin: 10px; 
+            border-radius:10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.397);
+        }
+        nav{
+            background-color: rgba(211, 211, 211, 0.233);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.425);
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        article{
+            background-color: rgba(37, 104, 82, 0.521);
+        }
+        article > aside{
+            background-color: rgba(43, 121, 121, 0.438);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </STYle>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes politica e tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia do Mello</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid fuga quasi dolor placeat consequatur nesciunt, fugit molestias voluptatibus omnis quia, natus qui repellat optio excepturi? Aliquam odio repudiandae voluptate dolorem.</p>
+                <aside>
+                    <p>Artigo escrito por mim</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <P>Desenvolvido pelo Mello</P>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
