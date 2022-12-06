@@ -12,26 +12,26 @@
             position: relative;
             height: 96vh;
             padding: 20px;
+            z-index: 0;
         }
         div{
-            background-color: white;
             background-image: url(imagens/astronauta.png);
-            background-size: 100% 100%;
+            background-size: 500px 500px;
             position: absolute;
-            height: 96vh;
+            max-width: 96vh;
+            background-repeat: no-repeat;
 
             left: 50%;
             top: 50%;
-
+            z-index: 1;
             transform: translate(-50%, -50%);
 
         }
     </style>
 </head>
 <body>
-    <div id="astronauta">
+    <div>
 
     </div>
-    </section>
 </body>
 </html>
