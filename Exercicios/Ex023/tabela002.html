@@ -11,6 +11,13 @@
         }
         table{
             width: 500px;
+            position: relative;
+            /*
+            Função para o thead rolar junto para baixo caso a tabela seje grande
+
+            position: relative;
+            
+            */
         }
         td, th{
             border: 1px solid black;
@@ -20,6 +27,18 @@
         thead, tfoot{
             background-color: rgb(0, 0, 0);
             color: white;
+        }
+        thead > tr > th{
+            /*
+            Função para o thead rolar junto para baixo caso a tabela seje grande
+
+            position: sticky;
+            top: -1px;
+            
+            */
+            position: sticky;
+            top: -1px;
+            background-color: rgb(0, 0, 0);
         }
         td.num{
             text-align: right;
@@ -35,7 +54,7 @@
         }
         tbody > tr:nth-child(odd){/* Efeito zebrado**** usar odd para linhas impares 2n-1 ****** ou even que é par*/
             background-color: lightgray;
-            
+
         }
     </style>
 </head>
@@ -105,6 +124,78 @@
                 <td>Santa Catarina</td>
                 <td class="num">6.734.568</td>
             </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.198.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.867.448</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.630.098</td>
+            </tr>
+            <tr>
+                <td>	Rondônia</td>
+                <td class="num">1.755.015</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.227.294</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.502.759</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">6.734.568</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.198.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.867.448</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.630.098</td>
+            </tr>
+            <tr>
+                <td>	Rondônia</td>
+                <td class="num">1.755.015</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.227.294</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.502.759</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">6.734.568</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -113,5 +204,15 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tempora maxime officia corrupti soluta corporis voluptatem in quae fuga dolores debitis, vitae ducimus aliquam rerum consequuntur quis id maiores minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis id consectetur provident minima a impedit, quidem dicta velit libero non deserunt debitis tenetur earum quis, quae, mollitia voluptatibus? Cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatibus libero sit perspiciatis eaque, ducimus alias, ipsam officia, maxime aperiam possimus quibusdam nisi blanditiis id consequatur! Doloremque tenetur sapiente vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit recusandae nobis necessitatibus! Nam sunt at aspernatur dolor pariatur, vero soluta obcaecati voluptatum illum molestias necessitatibus a totam eveniet. Quidem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tempora maxime officia corrupti soluta corporis voluptatem in quae fuga dolores debitis, vitae ducimus aliquam rerum consequuntur quis id maiores minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis id consectetur provident minima a impedit, quidem dicta velit libero non deserunt debitis tenetur earum quis, quae, mollitia voluptatibus? Cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatibus libero sit perspiciatis eaque, ducimus alias, ipsam officia, maxime aperiam possimus quibusdam nisi blanditiis id consequatur! Doloremque tenetur sapiente vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit recusandae nobis necessitatibus! Nam sunt at aspernatur dolor pariatur, vero soluta obcaecati voluptatum illum molestias necessitatibus a totam eveniet. Quidem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tempora maxime officia corrupti soluta corporis voluptatem in quae fuga dolores debitis, vitae ducimus aliquam rerum consequuntur quis id maiores minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis id consectetur provident minima a impedit, quidem dicta velit libero non deserunt debitis tenetur earum quis, quae, mollitia voluptatibus? Cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatibus libero sit perspiciatis eaque, ducimus alias, ipsam officia, maxime aperiam possimus quibusdam nisi blanditiis id consequatur! Doloremque tenetur sapiente vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit recusandae nobis necessitatibus! Nam sunt at aspernatur dolor pariatur, vero soluta obcaecati voluptatum illum molestias necessitatibus a totam eveniet. Quidem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tempora maxime officia corrupti soluta corporis voluptatem in quae fuga dolores debitis, vitae ducimus aliquam rerum consequuntur quis id maiores minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis id consectetur provident minima a impedit, quidem dicta velit libero non deserunt debitis tenetur earum quis, quae, mollitia voluptatibus? Cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatibus libero sit perspiciatis eaque, ducimus alias, ipsam officia, maxime aperiam possimus quibusdam nisi blanditiis id consequatur! Doloremque tenetur sapiente vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit recusandae nobis necessitatibus! Nam sunt at aspernatur dolor pariatur, vero soluta obcaecati voluptatum illum molestias necessitatibus a totam eveniet. Quidem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tempora maxime officia corrupti soluta corporis voluptatem in quae fuga dolores debitis, vitae ducimus aliquam rerum consequuntur quis id maiores minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis id consectetur provident minima a impedit, quidem dicta velit libero non deserunt debitis tenetur earum quis, quae, mollitia voluptatibus? Cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatibus libero sit perspiciatis eaque, ducimus alias, ipsam officia, maxime aperiam possimus quibusdam nisi blanditiis id consequatur! Doloremque tenetur sapiente vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit recusandae nobis necessitatibus! Nam sunt at aspernatur dolor pariatur, vero soluta obcaecati voluptatum illum molestias necessitatibus a totam eveniet. Quidem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tempora maxime officia corrupti soluta corporis voluptatem in quae fuga dolores debitis, vitae ducimus aliquam rerum consequuntur quis id maiores minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis id consectetur provident minima a impedit, quidem dicta velit libero non deserunt debitis tenetur earum quis, quae, mollitia voluptatibus? Cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatibus libero sit perspiciatis eaque, ducimus alias, ipsam officia, maxime aperiam possimus quibusdam nisi blanditiis id consequatur! Doloremque tenetur sapiente vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit recusandae nobis necessitatibus! Nam sunt at aspernatur dolor pariatur, vero soluta obcaecati voluptatum illum molestias necessitatibus a totam eveniet. Quidem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tempora maxime officia corrupti soluta corporis voluptatem in quae fuga dolores debitis, vitae ducimus aliquam rerum consequuntur quis id maiores minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis id consectetur provident minima a impedit, quidem dicta velit libero non deserunt debitis tenetur earum quis, quae, mollitia voluptatibus? Cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatibus libero sit perspiciatis eaque, ducimus alias, ipsam officia, maxime aperiam possimus quibusdam nisi blanditiis id consequatur! Doloremque tenetur sapiente vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit recusandae nobis necessitatibus! Nam sunt at aspernatur dolor pariatur, vero soluta obcaecati voluptatum illum molestias necessitatibus a totam eveniet. Quidem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tempora maxime officia corrupti soluta corporis voluptatem in quae fuga dolores debitis, vitae ducimus aliquam rerum consequuntur quis id maiores minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis id consectetur provident minima a impedit, quidem dicta velit libero non deserunt debitis tenetur earum quis, quae, mollitia voluptatibus? Cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatibus libero sit perspiciatis eaque, ducimus alias, ipsam officia, maxime aperiam possimus quibusdam nisi blanditiis id consequatur! Doloremque tenetur sapiente vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit recusandae nobis necessitatibus! Nam sunt at aspernatur dolor pariatur, vero soluta obcaecati voluptatum illum molestias necessitatibus a totam eveniet. Quidem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tempora maxime officia corrupti soluta corporis voluptatem in quae fuga dolores debitis, vitae ducimus aliquam rerum consequuntur quis id maiores minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perferendis id consectetur provident minima a impedit, quidem dicta velit libero non deserunt debitis tenetur earum quis, quae, mollitia voluptatibus? Cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatibus libero sit perspiciatis eaque, ducimus alias, ipsam officia, maxime aperiam possimus quibusdam nisi blanditiis id consequatur! Doloremque tenetur sapiente vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit recusandae nobis necessitatibus! Nam sunt at aspernatur dolor pariatur, vero soluta obcaecati voluptatum illum molestias necessitatibus a totam eveniet. Quidem.</p>
+
 </body>
 </html>
