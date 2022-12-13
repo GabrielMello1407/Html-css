@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+<body>
+    <h1>Meu Primeiro Formulário</h1>
+    <form autocomplete="off" action="cadastro.php" method="post"><!--Opção auto complete off remove o auto completar de sites e a função action é onde irá enviar o dado do formulario-->
+        <!-- É obrigatório sempre identificar os inputs com id e name , sendo name mais usado em php-->
+        <!--Função label para identificar da onde é a entrada, para reconhecer o label sempre colocar o id do input no label-->
+        <!--Dois metodos de envios de formulario , metodo Get E Post
+        
+            Onde o Post tira a linha de caminho onde está o formulario
+
+            Onde usar method Get ou Post?
+            Get qnd os dados não são sensíveis como metodos de procura do google .3000 Bytes é o maximo de dados enviados.
+            Post qnd são dados mais sensíveis como senha login numero cartão
+        -->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
